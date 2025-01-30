@@ -19,10 +19,10 @@ They are expected to be placed in the current working directory.
 - `stage2_infoblk{1,2,3}.bin`
 
 # Optional files
-- `sys/TWLFontTable.dat`
+- `nand/partition1/sys/TWLFontTable.dat`
   - Some software, like System Settings, will crash without it
   - `--skip-setup` is therefore enabled automatically if this file is missing
-- `sys/HWINFO_S.dat` (Unlaunch will be required without it)
+- `nand/partition1/sys/HWINFO_S.dat` (Unlaunch will be required without it)
 
 # Limitations
 As Nintendo never made PictoChat available on NUS, NANDs generated with this tool will not have it installed by default.
