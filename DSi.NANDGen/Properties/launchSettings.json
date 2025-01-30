@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DSi.NANDGen": {
+      "commandName": "Project",
+      "commandLineArgs": "--region CHN\r\n--consoleid 820207412087120\r\n--cid 6D2C62B484034D303046504100001500\r\n--unlaunch\r\n--skip-setup\r\n--clean\r\n--wait"
+    }
+  }
+}
